@@ -1,0 +1,86 @@
+/* pseudo selectors for links
+a:hover (for hovering), a:link (for unvisited link), a:visited
+
+p:first-child & p:nth-child(2)...etc
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+img {
+		height: 100px;
+		width: 150%;
+		margin-top: -10px;
+		margin-left: -10px;
+		margin-bottom: -5px;
+}
+/*
+WTF, why does this work for nav in project?
+--div classes are: header, container, nav ...in this order/multiple divs;
+.nav {
+  margin: 0;
+  padding: 20px 0
+;}
+
+.nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline;
+}
+*/
+
+
+/*.nav ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	background-color: #003409;
+	overflow: hidden;
+}
+
+.nav li {
+	float:left;
+}
+*/
+.header {
+  background-color: #003409;
+ }
+.nav {
+  margin: 0;
+  padding: 5px 20px;
+}
+
+.nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline;
+  padding: 5px 20px;
+}
+
+li a {
+   	color: white;
+   	padding: 0px;
+   	text-decoration: none;
+}
+
+li a:hover {
+   	background-color: #9AD083;
+}
+
+p #about {
+	font-size: 20px;
+	clear:left;
+	position:relative;
+	padding:100px;
+	width: 100%;
+}
+
+h2 {
+	text-align: center;
+}
+

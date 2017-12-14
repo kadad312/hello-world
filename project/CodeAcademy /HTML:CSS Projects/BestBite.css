@@ -1,0 +1,224 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+div {
+	display: block;  
+}
+
+
+/* Header */
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.header {
+  padding: 40px;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+    float: right;
+    width: 340px;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-pills li a {
+  color: #d8192f;
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color:rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5); 
+  color:#fff;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    background: url("https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+.jumbotron h2:first-child {
+    margin: 120px 0 0;
+}
+.jumbotron h2 {
+    color: #fff;
+    font-size: 60px;
+    text-align: right;
+    margin: 0;
+    width: 100%;
+}
+
+/* Section */ /* Banner */
+
+.section {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.section h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 30px;
+}
+
+.section h4 {
+    color: #d8192f;
+    margin: 30px 0 20px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.section .btn {
+    background-color: rgba(216,25,47,.5);
+    border: 0px;
+    margin-top: 24px;
+    color: #fff;
+}
+
+
+.banner, .supporting {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.banner {
+  background-color:#36343f;
+  height:180px; 
+  color: #fff;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.section ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+/* Footer */
+
+.footer {
+    height: 100px;
+    padding: 40px 0px 100px;
+    margin-top: 80px;
+    background-color: #eeeeee;
+    font-size: 14px;
+}
+
+.footer p {
+    float: left;
+    width: 33%;
+}
+
+.footer a {
+    color: #d8192f;
+}
+
+.a-center {
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}

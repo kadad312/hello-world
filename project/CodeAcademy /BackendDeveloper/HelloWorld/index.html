@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+  <title>Apply JavaScript example</title>
+</head>
+<body>
+  <button>Click me</button>
+  <script>
+  let myPlaces = ['one', 'two', 'three'];
+  let friendPlaces = ['four', 'five', 'three'];
+
+  for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+      for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+        if (myPlaces[myPlacesIndex]===friendPlaces[friendPlacesIndex]) {
+          document.write(friendPlaces[friendPlacesIndex]);
+        }
+    };
+  }
+</script>
+</body>
+</html>
